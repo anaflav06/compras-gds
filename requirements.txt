@@ -1,0 +1,6 @@
+streamlit
+pandas
+openpyxl
+XlsxWriter
+reportlab
+requests

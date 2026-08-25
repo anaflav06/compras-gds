@@ -1,0 +1,11 @@
+{
+  "compras": [],
+  "config": {
+    "centros_custo": ["CDSP2", "CPQ08", "SAO12"],
+    "formas_pagamento": ["2260", "2688"],
+    "sites": ["MERCADO LIVRE"]
+  },
+  "meta": {
+    "versao": 1
+  }
+}
