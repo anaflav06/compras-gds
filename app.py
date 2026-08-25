@@ -791,13 +791,63 @@ elif menu == "🛒 Inserir compras":
 
     with tab_devolucoes:
         st.subheader("Acompanhamento de devoluções")
-        devs = [c for c in db["compras"] if c.get("houve_devolucao")]
+
+        # Permite registrar uma devolução depois que a compra já foi lançada.
+        # Isso é útil para compras recentes, quando a necessidade de devolução ainda não era conhecida no cadastro inicial.
+        with st.expander("➕ Registrar devolução de uma compra já lançada", expanded=False):
+            compras_sem_dev = [c for c in db["compras"] if not c.get("houve_devolucao")]
+            if not compras_sem_dev:
+                st.info("Todas as compras cadastradas já possuem informação de devolução.")
+            else:
+                compras_sem_dev = sorted(compras_sem_dev, key=lambda x: x.get("data_compra", ""), reverse=True)
+                opcoes_nova_dev = {
+                    f"{pd.to_datetime(c['data_compra']).strftime('%d/%m/%Y')} • {c['item']} • {c['centro_custo']} • {brl(c['total'])}": c
+                    for c in compras_sem_dev
+                }
+                escolha_nova_dev = st.selectbox("Selecione a compra", list(opcoes_nova_dev.keys()), key="nova_dev_compra")
+                compra_dev = opcoes_nova_dev[escolha_nova_dev]
+                nd1, nd2 = st.columns(2)
+                with nd1:
+                    valor_nova_dev = st.number_input(
+                        "Valor da devolução / reembolso (R$)",
+                        min_value=0.0,
+                        max_value=float(compra_dev["total"]),
+                        step=0.01,
+                        format="%.2f",
+                        key=f"valor_nova_dev_{compra_dev['id']}",
+                    )
+                with nd2:
+                    status_nova_dev = st.selectbox(
+                        "Status da devolução",
+                        STATUS_DEVOLUCAO,
+                        index=0,
+                        key=f"status_nova_dev_{compra_dev['id']}",
+                    )
+                if st.button("💾 Registrar devolução", type="primary", use_container_width=True, key=f"registrar_dev_{compra_dev['id']}"):
+                    if valor_nova_dev <= 0:
+                        st.error("Informe o valor da devolução / reembolso.")
+                    else:
+                        compra_dev["houve_devolucao"] = True
+                        compra_dev["valor_devolucao"] = float(valor_nova_dev)
+                        compra_dev["status_devolucao"] = status_nova_dev
+                        compra_dev["atualizado_em"] = datetime.now().isoformat(timespec="seconds")
+                        compra_dev["usuario_atualizacao"] = st.session_state.get("usuario", "")
+                        persist(db)
+                        st.rerun()
+
+        st.markdown("### Pendências em acompanhamento")
+        # Reembolso confirmado é etapa concluída: permanece no histórico e nos cálculos,
+        # mas não aparece mais na fila de acompanhamento.
+        devs = [
+            c for c in db["compras"]
+            if c.get("houve_devolucao") and c.get("status_devolucao") != "Reembolso confirmado"
+        ]
         if not devs:
-            st.info("Nenhuma devolução cadastrada.")
+            st.success("Nenhuma devolução pendente de acompanhamento.")
         else:
             devs = sorted(devs, key=lambda x: x.get("data_compra", ""), reverse=True)
             opcoes = {f"{pd.to_datetime(c['data_compra']).strftime('%d/%m/%Y')} • {c['item']} • {brl(c['valor_devolucao'])} • {c.get('status_devolucao','')}": c for c in devs}
-            escolha = st.selectbox("Selecione a devolução", list(opcoes.keys()))
+            escolha = st.selectbox("Selecione a devolução pendente", list(opcoes.keys()))
             c = opcoes[escolha]
             col1, col2 = st.columns(2)
             with col1:
