@@ -675,15 +675,19 @@ elif menu == "🛒 Inserir compras":
                 parcelas = st.selectbox("Parcelamento *", list(range(1, 13)), format_func=lambda x: f"{x}x")
 
             itens_historicos = sorted({str(c.get("item", "")).strip().upper() for c in db.get("compras", []) if str(c.get("item", "")).strip()})
-            item_sel = st.selectbox(
-                "Item / descrição da compra *",
-                itens_historicos + ["➕ CADASTRAR NOVO ITEM"],
-                index=None,
-                placeholder="Digite para buscar um item já usado...",
-                help="Você pode digitar dentro da lista para localizar itens já cadastrados. Para um item novo, selecione 'CADASTRAR NOVO ITEM'.",
+            sugestao_item = st.selectbox(
+                "Sugestão de item já cadastrado (opcional)",
+                ["DIGITAR NOVO ITEM"] + itens_historicos,
+                index=0,
+                help="Use esta lista apenas se quiser reaproveitar um item já cadastrado. Para qualquer item novo, deixe em 'DIGITAR NOVO ITEM' e escreva livremente no campo abaixo.",
             )
-            item_novo = st.text_input("Novo item / descrição *", placeholder="Digite o novo item") if item_sel == "➕ CADASTRAR NOVO ITEM" else ""
-            item = item_novo if item_sel == "➕ CADASTRAR NOVO ITEM" else (item_sel or "")
+            valor_inicial_item = "" if sugestao_item == "DIGITAR NOVO ITEM" else sugestao_item
+            item = st.text_input(
+                "Item / descrição da compra *",
+                value=valor_inicial_item,
+                placeholder="Digite livremente o nome do item",
+                help="Este campo aceita qualquer descrição nova. O texto digitado aqui é o que será salvo.",
+            )
             total = st.number_input("Valor total da compra (R$) *", min_value=0.0, step=0.01, format="%.2f")
 
             houve = st.radio("Houve devolução?", ["Não", "Sim"], horizontal=True)
