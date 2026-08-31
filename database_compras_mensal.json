@@ -2393,6 +2393,27 @@
       "atualizado_em": "2026-08-31T20:14:56",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831201625714471",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-08-27",
+      "numero_nf": "000.405.228",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 10 MOLDURAS PORTA RETATO",
+      "forma_pagamento": "2260",
+      "parcelamento": 2,
+      "total": 60.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T20:16:25",
+      "atualizado_em": "2026-08-31T20:16:25",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
