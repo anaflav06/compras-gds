@@ -2246,6 +2246,27 @@
       "atualizado_em": "2026-08-31T19:58:30",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831195933706381",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-08-25",
+      "numero_nf": "000.735.917",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "5X PELÍCULA VIDRO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 27.18,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T19:59:33",
+      "atualizado_em": "2026-08-31T19:59:33",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
