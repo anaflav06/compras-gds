@@ -1973,6 +1973,27 @@
       "atualizado_em": "2026-08-31T19:17:42",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831191858066704",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-08-18",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "TONER COMPATIVEL T654X11L",
+      "forma_pagamento": "2260",
+      "parcelamento": 3,
+      "total": 179.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T19:18:58",
+      "atualizado_em": "2026-08-31T19:18:58",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
