@@ -908,22 +908,159 @@ elif menu == "🛒 Inserir compras":
                 with st.expander("✏️ Editar ou excluir lançamento"):
                     eid = st.selectbox("Compra", ids, format_func=lambda x: labels[x])
                     c = next(x for x in db["compras"] if x["id"] == eid)
-                    e1, e2 = st.columns(2)
+
+                    st.caption("Todos os dados abaixo podem ser corrigidos. Salvar altera o mesmo lançamento, sem criar duplicidade.")
+
+                    e1, e2, e3 = st.columns(3)
                     with e1:
-                        e_nf = st.text_input("NF", value=c.get("numero_nf", ""), key=f"edit_nf_{eid}")
-                        e_item = st.text_input("Item", value=c.get("item", ""), key=f"edit_item_{eid}")
-                        e_total = st.number_input("Total", min_value=0.01, value=float(c.get("total",0)), step=0.01, key=f"edit_total_{eid}")
+                        data_atual = pd.to_datetime(c.get("data_compra"), errors="coerce")
+                        data_atual = data_atual.date() if pd.notna(data_atual) else date.today()
+                        e_data = st.date_input(
+                            "Data da compra",
+                            value=max(data_atual, DATA_INICIO_APP),
+                            min_value=DATA_INICIO_APP,
+                            format="DD/MM/YYYY",
+                            key=f"edit_data_{eid}",
+                        )
+                        e_site = st.text_input("Site / fornecedor", value=c.get("site", ""), key=f"edit_site_{eid}")
+                        centros = db["config"].get("centros_custo", CENTROS_CUSTO_PADRAO)
+                        e_cc = st.selectbox(
+                            "Centro de custo",
+                            centros,
+                            index=centros.index(c.get("centro_custo")) if c.get("centro_custo") in centros else 0,
+                            key=f"edit_cc_{eid}",
+                        )
                     with e2:
-                        e_cc = st.selectbox("Centro de custo", db["config"].get("centros_custo", CENTROS_CUSTO_PADRAO), index=db["config"].get("centros_custo", CENTROS_CUSTO_PADRAO).index(c["centro_custo"]) if c["centro_custo"] in db["config"].get("centros_custo", CENTROS_CUSTO_PADRAO) else 0, key=f"edit_cc_{eid}")
-                        pagamentos = db["config"].get("formas_pagamento", FORMAS_PAGAMENTO_PADRAO)
-                        e_pag = st.selectbox("Pagamento", pagamentos, index=pagamentos.index(c["forma_pagamento"]) if c["forma_pagamento"] in pagamentos else 0, key=f"edit_pag_{eid}")
-                        e_parc = st.selectbox("Parcelas", list(range(1,13)), index=max(0,min(11,int(c.get("parcelamento",1))-1)), format_func=lambda x:f"{x}x", key=f"edit_parc_{eid}")
-                    b1,b2 = st.columns(2)
+                        e_nf = st.text_input("Número da NF", value=c.get("numero_nf", ""), key=f"edit_nf_{eid}")
+                        e_item = st.text_input("Item / descrição", value=c.get("item", ""), key=f"edit_item_{eid}")
+                        e_pag = st.text_input("Cartão / forma de pagamento", value=c.get("forma_pagamento", ""), key=f"edit_pag_{eid}")
+                    with e3:
+                        e_parc = st.selectbox(
+                            "Parcelamento",
+                            list(range(1, 13)),
+                            index=max(0, min(11, int(c.get("parcelamento", 1) or 1) - 1)),
+                            format_func=lambda x: f"{x}x",
+                            key=f"edit_parc_{eid}",
+                        )
+                        e_total = st.number_input(
+                            "Valor total da compra (R$)",
+                            min_value=0.01,
+                            value=float(c.get("total", 0) or 0),
+                            step=0.01,
+                            format="%.2f",
+                            key=f"edit_total_{eid}",
+                        )
+                        e_motivo_nf = st.text_input(
+                            "Motivo / observação da NF",
+                            value=c.get("motivo_nf", ""),
+                            placeholder="Ex.: Falta de retorno",
+                            key=f"edit_motivo_nf_{eid}",
+                        )
+
+                    e_obs = st.text_area(
+                        "Observação da compra",
+                        value=c.get("observacao", ""),
+                        height=90,
+                        key=f"edit_obs_{eid}",
+                    )
+
+                    houve_atual = bool(c.get("houve_devolucao", False))
+                    e_houve = st.radio(
+                        "Houve devolução?",
+                        ["Não", "Sim"],
+                        index=1 if houve_atual else 0,
+                        horizontal=True,
+                        key=f"edit_houve_{eid}",
+                    )
+
+                    e_valor_dev = 0.0
+                    e_status_dev = ""
+                    if e_houve == "Sim":
+                        d1, d2 = st.columns(2)
+                        with d1:
+                            valor_dev_atual = min(float(c.get("valor_devolucao", 0) or 0), float(e_total))
+                            e_valor_dev = st.number_input(
+                                "Valor da devolução / reembolso (R$)",
+                                min_value=0.0,
+                                max_value=float(e_total),
+                                value=valor_dev_atual,
+                                step=0.01,
+                                format="%.2f",
+                                key=f"edit_valor_dev_{eid}",
+                            )
+                        with d2:
+                            status_atual = c.get("status_devolucao", "")
+                            idx_status = STATUS_DEVOLUCAO.index(status_atual) if status_atual in STATUS_DEVOLUCAO else 0
+                            e_status_dev = st.selectbox(
+                                "Status da devolução",
+                                STATUS_DEVOLUCAO,
+                                index=idx_status,
+                                key=f"edit_status_dev_{eid}",
+                            )
+
+                    b1, b2 = st.columns(2)
                     if b1.button("💾 Salvar alterações", use_container_width=True, type="primary"):
-                        c.update({"numero_nf":e_nf.strip(),"status_nf":"Recebida" if e_nf.strip() and e_nf.strip().upper() != "N/C" else ("Finalizada sem NF" if e_nf.strip().upper() == "N/C" else "Pendente"),"item":e_item.strip().upper(),"total":float(e_total),"centro_custo":e_cc,"forma_pagamento":e_pag,"parcelamento":int(e_parc),"atualizado_em":datetime.now().isoformat(timespec="seconds"),"usuario_atualizacao":st.session_state.get("usuario", "")})
-                        persist(db)
-                        st.rerun()
-                    if b2.button("🗑️ Excluir compra", use_container_width=True):
+                        erros_edicao = []
+                        if not e_site.strip():
+                            erros_edicao.append("Informe o site / fornecedor.")
+                        if not e_item.strip():
+                            erros_edicao.append("Informe o item / descrição.")
+                        if not e_pag.strip():
+                            erros_edicao.append("Informe o cartão / forma de pagamento.")
+                        if e_houve == "Sim" and e_valor_dev <= 0:
+                            erros_edicao.append("Informe o valor da devolução.")
+                        if e_houve == "Sim" and e_valor_dev > e_total:
+                            erros_edicao.append("A devolução não pode ser maior que o valor da compra.")
+
+                        if erros_edicao:
+                            for erro in erros_edicao:
+                                st.error(erro)
+                        else:
+                            nf_limpa = e_nf.strip()
+                            if nf_limpa.upper() == "N/C":
+                                status_nf_edit = "Finalizada sem NF"
+                            elif nf_limpa:
+                                status_nf_edit = "Recebida"
+                            else:
+                                status_nf_edit = "Pendente"
+
+                            site_edit = e_site.strip().upper()
+                            pag_edit = e_pag.strip().upper()
+                            add_option("sites", site_edit)
+                            add_option("formas_pagamento", pag_edit)
+
+                            c.update({
+                                "data_compra": e_data.isoformat(),
+                                "site": site_edit,
+                                "numero_nf": nf_limpa,
+                                "status_nf": status_nf_edit,
+                                "motivo_nf": e_motivo_nf.strip(),
+                                "item": e_item.strip().upper(),
+                                "total": float(e_total),
+                                "centro_custo": e_cc,
+                                "forma_pagamento": pag_edit,
+                                "parcelamento": int(e_parc),
+                                "houve_devolucao": e_houve == "Sim",
+                                "valor_devolucao": float(e_valor_dev if e_houve == "Sim" else 0),
+                                "status_devolucao": e_status_dev if e_houve == "Sim" else "",
+                                "observacao": e_obs.strip(),
+                                "atualizado_em": datetime.now().isoformat(timespec="seconds"),
+                                "usuario_atualizacao": st.session_state.get("usuario", ""),
+                            })
+                            persist(db)
+                            st.rerun()
+
+                    confirmar_exclusao = b2.checkbox(
+                        "Confirmar exclusão",
+                        key=f"confirm_delete_{eid}",
+                        help="Marque esta opção para liberar o botão de exclusão.",
+                    )
+                    if st.button(
+                        "🗑️ Excluir compra definitivamente",
+                        use_container_width=True,
+                        disabled=not confirmar_exclusao,
+                        key=f"delete_{eid}",
+                    ):
                         db["compras"] = [x for x in db["compras"] if x["id"] != eid]
                         persist(db)
                         st.rerun()
