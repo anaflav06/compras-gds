@@ -2015,27 +2015,6 @@
       "atualizado_em": "2026-08-31T19:26:40",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
-    },
-    {
-      "id": "CMP-20260831193108543522",
-      "site": "MERCADO LIVRE",
-      "centro_custo": "CDSP2",
-      "data_compra": "2026-08-31",
-      "numero_nf": "",
-      "status_nf": "Pendente",
-      "motivo_nf": "",
-      "item": "LEMONT WEB MANGUEIRA",
-      "forma_pagamento": "2260",
-      "parcelamento": 1,
-      "total": 98.5,
-      "houve_devolucao": false,
-      "valor_devolucao": 0.0,
-      "status_devolucao": "",
-      "observacao": "REEMBOLSO CONFIRMADO",
-      "criado_em": "2026-08-31T19:31:08",
-      "atualizado_em": "2026-08-31T19:31:08",
-      "usuario_criacao": "julia",
-      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
