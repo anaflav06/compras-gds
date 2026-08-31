@@ -2351,6 +2351,27 @@
       "atualizado_em": "2026-08-31T20:08:25",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831201036225712",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-08-27",
+      "numero_nf": "000.038.472",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "PINCEL ATÔMICO PERMANENTE",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 22.88,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T20:10:36",
+      "atualizado_em": "2026-08-31T20:10:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
