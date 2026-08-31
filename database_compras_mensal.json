@@ -2099,6 +2099,27 @@
       "atualizado_em": "2026-08-31T19:46:17",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831194748166855",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-08-19",
+      "numero_nf": "000.002.194",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "JUSSARA 3/0 CINZA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 22.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T19:47:48",
+      "atualizado_em": "2026-08-31T19:47:48",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
