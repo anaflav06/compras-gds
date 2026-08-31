@@ -2267,6 +2267,27 @@
       "atualizado_em": "2026-08-31T19:59:33",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831200045403418",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-08-25",
+      "numero_nf": "000.079.848",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "BOTA BOTINA SEGURANÇA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 48.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T20:00:45",
+      "atualizado_em": "2026-08-31T20:00:45",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
