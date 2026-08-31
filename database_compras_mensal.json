@@ -2309,6 +2309,27 @@
       "atualizado_em": "2026-08-31T20:01:47",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260831200538957307",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-08-27",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "CALÇA UNIFORME",
+      "forma_pagamento": "2260",
+      "parcelamento": 2,
+      "total": 632.77,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-08-31T20:05:38",
+      "atualizado_em": "2026-08-31T20:05:38",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
