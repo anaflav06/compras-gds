@@ -435,6 +435,14 @@ def load_database():
     db.setdefault("compras", [])
     db.setdefault("config", {})
     db["config"].setdefault("centros_custo", CENTROS_CUSTO_PADRAO.copy())
+    # Mantém as opções padrão mesmo quando o banco permanente já possui uma lista antiga.
+    # Isso evita que novos centros de custo (ex.: ASSISTÊNCIA) desapareçam ao carregar o JSON do GitHub.
+    centros_config = list(db["config"].get("centros_custo", []))
+    for centro_padrao in CENTROS_CUSTO_PADRAO:
+        if centro_padrao not in centros_config:
+            centros_config.append(centro_padrao)
+    db["config"]["centros_custo"] = centros_config
+
     db["config"].setdefault("formas_pagamento", FORMAS_PAGAMENTO_PADRAO.copy())
     db["config"].setdefault("sites", SITES_PADRAO.copy())
     for c in db["compras"]:
