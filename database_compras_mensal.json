@@ -2439,7 +2439,7 @@
     {
       "id": "CMP-20260831202324574229",
       "site": "MERCADO LIVRE",
-      "centro_custo": "CDSP2",
+      "centro_custo": "ASSISTÊNCIA",
       "data_compra": "2026-08-28",
       "numero_nf": "000.085.469",
       "status_nf": "Recebida",
@@ -2453,7 +2453,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-08-31T20:23:24",
-      "atualizado_em": "2026-08-31T20:23:24",
+      "atualizado_em": "2026-09-01T14:45:23",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -2525,7 +2525,8 @@
     "centros_custo": [
       "CDSP2",
       "CPQ08",
-      "SAO12"
+      "SAO12",
+      "ASSISTÊNCIA"
     ],
     "formas_pagamento": [
       "2260",
@@ -2539,7 +2540,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-08-31T19:13:53",
+    "ultima_carga_inicial_em": "2026-09-01T14:44:53",
     "ultima_carga_inicial_adicionados": 0
   }
 }
