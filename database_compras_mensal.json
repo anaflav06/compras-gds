@@ -2545,7 +2545,7 @@
       "id": "CMP-20260917181731617249",
       "site": "MERCADO LIVRE",
       "centro_custo": "CPQ08",
-      "data_compra": "2026-09-17",
+      "data_compra": "2026-09-01",
       "numero_nf": "000.174.791",
       "status_nf": "Recebida",
       "motivo_nf": "",
@@ -2558,7 +2558,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-09-17T18:17:31",
-      "atualizado_em": "2026-09-17T18:17:31",
+      "atualizado_em": "2026-09-17T18:18:31",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     }
