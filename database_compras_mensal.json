@@ -2838,7 +2838,7 @@
     {
       "id": "CMP-20260917185907246029",
       "site": "MERCADO LIVRE",
-      "centro_custo": "CDSP2",
+      "centro_custo": "SAO12",
       "data_compra": "2026-09-04",
       "numero_nf": "",
       "status_nf": "Pendente",
@@ -2852,7 +2852,7 @@
       "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-09-17T18:59:07",
-      "atualizado_em": "2026-09-17T19:26:48",
+      "atualizado_em": "2026-09-17T19:26:56",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
