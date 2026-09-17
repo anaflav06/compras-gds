@@ -3302,8 +3302,8 @@
       "site": "MERCADO LIVRE",
       "centro_custo": "CPQ08",
       "data_compra": "2026-09-14",
-      "numero_nf": "",
-      "status_nf": "Pendente",
+      "numero_nf": "000.119.707",
+      "status_nf": "Recebida",
       "motivo_nf": "",
       "item": "SILICONE GEL BRILHOSO",
       "forma_pagamento": "2260",
@@ -3314,7 +3314,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-09-17T20:16:10",
-      "atualizado_em": "2026-09-17T20:16:10",
+      "atualizado_em": "2026-09-17T20:16:35",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     }
