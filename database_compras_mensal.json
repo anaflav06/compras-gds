@@ -2765,10 +2765,10 @@
       "total": 88.9,
       "houve_devolucao": true,
       "valor_devolucao": 88.9,
-      "status_devolucao": "Devolução solicitada",
+      "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-09-17T18:54:29",
-      "atualizado_em": "2026-09-17T19:21:59",
+      "atualizado_em": "2026-09-17T19:22:37",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
