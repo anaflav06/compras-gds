@@ -3044,6 +3044,27 @@
       "atualizado_em": "2026-09-17T19:47:12",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917195202140936",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-09",
+      "numero_nf": "000.257.421",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CALÇA MASCULINA BRIM",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 133.98,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:52:02",
+      "atualizado_em": "2026-09-17T19:52:02",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
