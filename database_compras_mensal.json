@@ -3002,6 +3002,27 @@
       "atualizado_em": "2026-09-17T19:40:45",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917194542034882",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-09-08",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "LANTERNA TRASEIRA BICOLOR",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 61.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:45:42",
+      "atualizado_em": "2026-09-17T19:45:42",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
