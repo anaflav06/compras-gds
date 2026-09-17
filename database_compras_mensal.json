@@ -2939,6 +2939,27 @@
       "atualizado_em": "2026-09-17T19:36:29",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917193802378900",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-04",
+      "numero_nf": "000.020.399",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "SAQUINHO PLÁSTICO 25X35",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 19.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:38:02",
+      "atualizado_em": "2026-09-17T19:38:02",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
