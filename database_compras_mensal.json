@@ -2897,6 +2897,27 @@
       "atualizado_em": "2026-09-17T19:29:38",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917193332844159",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-04",
+      "numero_nf": "000.008.789",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 5X RODINHAS S/PINO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 35.5,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:33:32",
+      "atualizado_em": "2026-09-17T19:33:32",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
