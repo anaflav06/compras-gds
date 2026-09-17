@@ -3065,6 +3065,27 @@
       "atualizado_em": "2026-09-17T19:52:02",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917195321208963",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-10",
+      "numero_nf": "001.414.619",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "FITA DUPLA FACE",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 34.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:53:21",
+      "atualizado_em": "2026-09-17T19:53:21",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
