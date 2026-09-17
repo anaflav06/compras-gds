@@ -3280,7 +3280,7 @@
       "id": "CMP-20260917201519634689",
       "site": "MERCADO LIVRE",
       "centro_custo": "CDSP2",
-      "data_compra": "2026-09-17",
+      "data_compra": "2026-09-14",
       "numero_nf": "000.020.120",
       "status_nf": "Recebida",
       "motivo_nf": "",
@@ -3293,7 +3293,7 @@
       "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-09-17T20:15:19",
-      "atualizado_em": "2026-09-17T20:15:19",
+      "atualizado_em": "2026-09-17T20:24:44",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
