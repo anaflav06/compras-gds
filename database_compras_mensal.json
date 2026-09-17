@@ -3023,6 +3023,27 @@
       "atualizado_em": "2026-09-17T19:45:42",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260917194712804151",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-08",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "RODÍZIO RODINHAS P/ CADEIRA",
+      "forma_pagamento": "2260",
+      "parcelamento": 2,
+      "total": 48.67,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-17T19:47:12",
+      "atualizado_em": "2026-09-17T19:47:12",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
