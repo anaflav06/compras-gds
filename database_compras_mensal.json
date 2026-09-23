@@ -3443,6 +3443,27 @@
       "atualizado_em": "2026-09-23T20:01:26",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260923200226827435",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-21",
+      "numero_nf": "000.173.724",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CAPA CASE CAPINHA + PELÍCULA 3D",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 23.09,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-23T20:02:26",
+      "atualizado_em": "2026-09-23T20:02:26",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
