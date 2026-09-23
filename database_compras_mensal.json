@@ -3653,6 +3653,27 @@
       "atualizado_em": "2026-09-23T20:12:36",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260923201336862754",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-23",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "5 TRENAS DE AÇO 5M",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 49.8,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-23T20:13:36",
+      "atualizado_em": "2026-09-23T20:13:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
