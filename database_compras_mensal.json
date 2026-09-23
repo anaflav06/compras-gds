@@ -3527,6 +3527,27 @@
       "atualizado_em": "2026-09-23T20:05:43",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260923200759663136",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-22",
+      "numero_nf": "000.009.035",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "MOTOROLA MOT G06",
+      "forma_pagamento": "2260",
+      "parcelamento": 5,
+      "total": 780.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-23T20:07:59",
+      "atualizado_em": "2026-09-23T20:07:59",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
