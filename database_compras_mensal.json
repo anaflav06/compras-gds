@@ -3569,6 +3569,27 @@
       "atualizado_em": "2026-09-23T20:08:45",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20260923200944619992",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-22",
+      "numero_nf": "000.193.083",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CHIP VIVO PRÉ PAGO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 28.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-09-23T20:09:44",
+      "atualizado_em": "2026-09-23T20:09:44",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
