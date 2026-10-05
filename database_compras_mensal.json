@@ -3737,6 +3737,27 @@
       "atualizado_em": "2026-10-05T18:01:13",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005180329046214",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-25",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "CABO USB TIPO C",
+      "forma_pagamento": "2260",
+      "parcelamento": 2,
+      "total": 39.96,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T18:03:29",
+      "atualizado_em": "2026-10-05T18:03:29",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
