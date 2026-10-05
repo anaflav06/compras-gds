@@ -3779,6 +3779,27 @@
       "atualizado_em": "2026-10-05T18:04:36",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005180959270442",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-29",
+      "numero_nf": "000.247.241",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "ESPÁTULA PROFISSIONAL AÇO INOX",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 23.95,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T18:09:59",
+      "atualizado_em": "2026-10-05T18:09:59",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
