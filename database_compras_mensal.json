@@ -4073,6 +4073,27 @@
       "atualizado_em": "2026-10-05T19:30:36",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005193137845836",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-09-29",
+      "numero_nf": "001.474.693",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "LANTERNA DE CABEÇA YBF",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 23.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T19:31:37",
+      "atualizado_em": "2026-10-05T19:31:37",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
