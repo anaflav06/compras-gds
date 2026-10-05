@@ -3947,6 +3947,27 @@
       "atualizado_em": "2026-10-05T19:16:13",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005191714323195",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-09-30",
+      "numero_nf": "000.093.745",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "MINI SOPRDOR AR TURBO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 46.5,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T19:17:14",
+      "atualizado_em": "2026-10-05T19:17:14",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
