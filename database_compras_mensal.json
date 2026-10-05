@@ -3758,6 +3758,27 @@
       "atualizado_em": "2026-10-05T18:03:29",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005180436616080",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-29",
+      "numero_nf": "000.005.690",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "SOPRADOR SUGADOR BORRACHA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 35.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T18:04:36",
+      "atualizado_em": "2026-10-05T18:04:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
