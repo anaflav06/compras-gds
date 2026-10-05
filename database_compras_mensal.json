@@ -4052,6 +4052,27 @@
       "atualizado_em": "2026-10-05T19:29:35",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005193036264084",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-09-29",
+      "numero_nf": "000.003.675",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "ASPIRADOR PORTÁTIL VACUUM",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 30.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T19:30:36",
+      "atualizado_em": "2026-10-05T19:30:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
