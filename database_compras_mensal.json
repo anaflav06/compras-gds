@@ -3763,7 +3763,7 @@
       "id": "CMP-20261005180436616080",
       "site": "MERCADO LIVRE",
       "centro_custo": "ASSISTÊNCIA",
-      "data_compra": "2026-10-29",
+      "data_compra": "2026-09-29",
       "numero_nf": "000.005.690",
       "status_nf": "Recebida",
       "motivo_nf": "",
@@ -3776,7 +3776,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-10-05T18:04:36",
-      "atualizado_em": "2026-10-05T18:04:36",
+      "atualizado_em": "2026-10-05T19:09:03",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -3884,7 +3884,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-10-05T13:57:58",
+    "ultima_carga_inicial_em": "2026-10-05T19:08:41",
     "ultima_carga_inicial_adicionados": 0
   }
 }
