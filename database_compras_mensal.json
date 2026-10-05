@@ -4031,6 +4031,27 @@
       "atualizado_em": "2026-10-05T19:28:16",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005192935361100",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-09-29",
+      "numero_nf": "000.090.699",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "PILHA BATERIA CR2032 3V",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 22.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T19:29:35",
+      "atualizado_em": "2026-10-05T19:29:35",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
