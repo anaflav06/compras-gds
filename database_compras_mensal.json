@@ -3842,6 +3842,27 @@
       "atualizado_em": "2026-10-05T18:13:30",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005181445623988",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-29",
+      "numero_nf": "000.059.884",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "DISPENSER FRASCO PONTA AGULHA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 19.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T18:14:45",
+      "atualizado_em": "2026-10-05T18:14:45",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
