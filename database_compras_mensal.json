@@ -3721,7 +3721,7 @@
       "id": "CMP-20261005180113821471",
       "site": "MERCADO LIVRE",
       "centro_custo": "CDSP2",
-      "data_compra": "2026-10-25",
+      "data_compra": "2026-09-25",
       "numero_nf": "000.007.113",
       "status_nf": "Recebida",
       "motivo_nf": "",
@@ -3734,7 +3734,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-10-05T18:01:13",
-      "atualizado_em": "2026-10-05T18:01:13",
+      "atualizado_em": "2026-10-05T19:09:30",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
