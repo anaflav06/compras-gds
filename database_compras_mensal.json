@@ -3800,6 +3800,27 @@
       "atualizado_em": "2026-10-05T18:09:59",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005181105845300",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-29",
+      "numero_nf": "000.247.243",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "ESPATULA FACA SEPARAÇÃO ABERTURA TELA MANUTENÇÃO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 19.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T18:11:05",
+      "atualizado_em": "2026-10-05T18:11:05",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
