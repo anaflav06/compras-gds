@@ -3905,6 +3905,27 @@
       "atualizado_em": "2026-10-05T19:13:39",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261005191529488863",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-09-30",
+      "numero_nf": "000.021.141",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "BALDE PLÁSTICO 15L",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 25.96,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-05T19:15:29",
+      "atualizado_em": "2026-10-05T19:15:29",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
