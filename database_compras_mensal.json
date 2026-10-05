@@ -3826,7 +3826,7 @@
       "id": "CMP-20261005181226089994",
       "site": "MERCADO LIVRE",
       "centro_custo": "ASSISTÊNCIA",
-      "data_compra": "2026-10-05",
+      "data_compra": "2026-10-29",
       "numero_nf": "",
       "status_nf": "Pendente",
       "motivo_nf": "",
@@ -3839,7 +3839,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-10-05T18:12:26",
-      "atualizado_em": "2026-10-05T18:12:26",
+      "atualizado_em": "2026-10-05T18:13:04",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     }
