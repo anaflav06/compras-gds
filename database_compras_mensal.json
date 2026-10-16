@@ -4451,6 +4451,27 @@
       "atualizado_em": "2026-10-16T15:56:55",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016160447491092",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-10-13",
+      "numero_nf": "005.969.958",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 10 ESTILETES PROFISSIONAIS",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 36.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T16:04:47",
+      "atualizado_em": "2026-10-16T16:04:47",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
