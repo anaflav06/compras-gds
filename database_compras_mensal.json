@@ -4178,6 +4178,27 @@
       "atualizado_em": "2026-10-16T15:24:45",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016152636795456",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-06",
+      "numero_nf": "000.082.688",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CARIMBO AUTOMÁTICO PERSONALIZADO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 57.6,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T15:26:36",
+      "atualizado_em": "2026-10-16T15:26:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
