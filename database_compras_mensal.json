@@ -4241,6 +4241,27 @@
       "atualizado_em": "2026-10-16T15:31:33",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016153240410170",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-10-06",
+      "numero_nf": "000.003.861",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT LIMPEZA CASA VASSOURA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 110.1,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T15:32:40",
+      "atualizado_em": "2026-10-16T15:32:40",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
