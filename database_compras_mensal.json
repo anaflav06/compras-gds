@@ -3932,8 +3932,8 @@
       "site": "MERCADO LIVRE",
       "centro_custo": "SAO12",
       "data_compra": "2026-09-30",
-      "numero_nf": "",
-      "status_nf": "Pendente",
+      "numero_nf": "000.080.174",
+      "status_nf": "Recebida",
       "motivo_nf": "",
       "item": "FAROL QUADRADO WAY ECO",
       "forma_pagamento": "2260",
@@ -3944,7 +3944,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-10-05T19:16:13",
-      "atualizado_em": "2026-10-05T19:16:13",
+      "atualizado_em": "2026-10-16T13:45:28",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -4115,7 +4115,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-10-05T19:08:41",
+    "ultima_carga_inicial_em": "2026-10-16T13:40:04",
     "ultima_carga_inicial_adicionados": 0
   }
 }
