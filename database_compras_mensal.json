@@ -4094,6 +4094,27 @@
       "atualizado_em": "2026-10-16T14:24:08",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016143247209890",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-10-06",
+      "numero_nf": "001.250.966",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "12 PR LUVA EPI SEGUNRANÇA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 35.89,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T14:32:47",
+      "atualizado_em": "2026-10-16T14:32:47",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
