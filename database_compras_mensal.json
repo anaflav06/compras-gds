@@ -4262,6 +4262,27 @@
       "atualizado_em": "2026-10-16T15:32:40",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016153409284687",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-10-07",
+      "numero_nf": "000.018.037",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "TAPETE CAPACHO PERSONALIZADO",
+      "forma_pagamento": "2260",
+      "parcelamento": 4,
+      "total": 137.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T15:34:09",
+      "atualizado_em": "2026-10-16T15:34:09",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
