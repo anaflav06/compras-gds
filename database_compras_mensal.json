@@ -4115,6 +4115,27 @@
       "atualizado_em": "2026-10-16T14:32:47",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016143412472707",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-06",
+      "numero_nf": "000.014.752",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT C/12 LAMPADAS ULTRALEDS",
+      "forma_pagamento": "2260",
+      "parcelamento": 5,
+      "total": 473.21,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T14:34:12",
+      "atualizado_em": "2026-10-16T14:34:12",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
