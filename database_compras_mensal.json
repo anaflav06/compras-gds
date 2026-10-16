@@ -4136,6 +4136,27 @@
       "atualizado_em": "2026-10-16T14:34:12",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016143532165619",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-10-06",
+      "numero_nf": "000.018.553",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "10 CAIXAS ARQUIVO MORTO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 39.8,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T14:35:32",
+      "atualizado_em": "2026-10-16T14:35:32",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
