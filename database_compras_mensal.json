@@ -4283,6 +4283,27 @@
       "atualizado_em": "2026-10-16T15:34:09",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261016153554351862",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-07",
+      "numero_nf": "000.017.815",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CARTÃO DE VISITA PERSONALIZADO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 28.4,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-16T15:35:54",
+      "atualizado_em": "2026-10-16T15:35:54",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
