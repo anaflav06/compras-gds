@@ -3122,10 +3122,10 @@
       "total": 99.9,
       "houve_devolucao": true,
       "valor_devolucao": 99.9,
-      "status_devolucao": "Devolução solicitada",
+      "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-09-17T19:58:21",
-      "atualizado_em": "2026-09-17T20:01:53",
+      "atualizado_em": "2026-10-16T13:55:14",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
