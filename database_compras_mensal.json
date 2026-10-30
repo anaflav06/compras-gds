@@ -4997,6 +4997,27 @@
       "atualizado_em": "2026-10-30T20:46:52",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030204813793152",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-30",
+      "numero_nf": "000.061.125",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "BAT PARA SYMBOL 3,6",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 108.74,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:48:13",
+      "atualizado_em": "2026-10-30T20:48:13",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
