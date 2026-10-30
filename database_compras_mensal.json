@@ -4661,6 +4661,27 @@
       "atualizado_em": "2026-10-30T20:10:55",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030201226173131",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-10-22",
+      "numero_nf": "000.363.777",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CAT6 CABO DE REDE 5M",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 20.65,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:12:26",
+      "atualizado_em": "2026-10-30T20:12:26",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
