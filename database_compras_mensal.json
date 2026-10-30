@@ -4892,6 +4892,27 @@
       "atualizado_em": "2026-10-30T20:38:56",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030204006659367",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-28",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "20UN SACO EMBALAGEM VISOR",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 34.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:40:06",
+      "atualizado_em": "2026-10-30T20:40:06",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
