@@ -4724,6 +4724,27 @@
       "atualizado_em": "2026-10-30T20:15:38",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030201922224779",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-23",
+      "numero_nf": "000.005.713",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CALÇA FLARE BAILARINA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 158.36,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:19:22",
+      "atualizado_em": "2026-10-30T20:19:22",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
