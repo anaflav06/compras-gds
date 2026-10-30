@@ -5018,6 +5018,27 @@
       "atualizado_em": "2026-10-30T20:48:13",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030204924464287",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-30",
+      "numero_nf": "000.091.616",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "PLACA MESA RADIONICA",
+      "forma_pagamento": "2260",
+      "parcelamento": 2,
+      "total": 24.21,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:49:24",
+      "atualizado_em": "2026-10-30T20:49:24",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
