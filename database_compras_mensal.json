@@ -4619,6 +4619,27 @@
       "atualizado_em": "2026-10-30T20:08:32",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030200937238883",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-10-22",
+      "numero_nf": "000.797.853",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "GRAMPEADOR MÉDIO JOCAR 20 FOLHAS",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 38.0,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:09:37",
+      "atualizado_em": "2026-10-30T20:09:37",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
