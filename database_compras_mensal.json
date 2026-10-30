@@ -4871,6 +4871,27 @@
       "atualizado_em": "2026-10-30T20:34:32",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030203856727763",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-10-27",
+      "numero_nf": "000.078.798",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "PÁ DE LIXO METAL COM CABO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 29.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:38:56",
+      "atualizado_em": "2026-10-30T20:38:56",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
