@@ -4745,6 +4745,27 @@
       "atualizado_em": "2026-10-30T20:19:22",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030202041628780",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-10-26",
+      "numero_nf": "000.080.753",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT PLATEN ROLETE IMPRESSORA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 189.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:20:41",
+      "atualizado_em": "2026-10-30T20:20:41",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
