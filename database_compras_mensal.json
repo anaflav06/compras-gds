@@ -4535,6 +4535,27 @@
       "atualizado_em": "2026-10-30T19:59:10",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261030200148224137",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-10-19",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "TONER COMPATIVEL COM TN660 DCP- 12540DW",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 46.94,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-10-30T20:01:48",
+      "atualizado_em": "2026-10-30T20:01:48",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
