@@ -4919,8 +4919,8 @@
       "site": "MERCADO LIVRE",
       "centro_custo": "CDSP2",
       "data_compra": "2026-10-30",
-      "numero_nf": "",
-      "status_nf": "Pendente",
+      "numero_nf": "000.252.086",
+      "status_nf": "Recebida",
       "motivo_nf": "",
       "item": "FONTE COMPÁTIVEL IMPRESSORA ZEBRA GT800",
       "forma_pagamento": "2260",
@@ -4931,7 +4931,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-10-30T20:41:41",
-      "atualizado_em": "2026-10-30T20:41:41",
+      "atualizado_em": "2026-11-11T20:42:00",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -5144,7 +5144,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-10-30T19:54:42",
+    "ultima_carga_inicial_em": "2026-11-11T20:39:11",
     "ultima_carga_inicial_adicionados": 0
   }
 }
