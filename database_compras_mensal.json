@@ -5858,6 +5858,27 @@
       "atualizado_em": "2026-11-12T20:24:03",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112202534025263",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.006.810",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "ASSENTO SANITARIO ALMOFADADO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 119.67,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T20:25:34",
+      "atualizado_em": "2026-11-12T20:25:34",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
