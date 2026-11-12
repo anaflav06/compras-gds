@@ -5333,6 +5333,27 @@
       "atualizado_em": "2026-11-12T15:07:29",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112150933956292",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-09",
+      "numero_nf": "001.519.057",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CALÇA LEGGING FLARE PLUS",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 31.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T15:09:33",
+      "atualizado_em": "2026-11-12T15:09:33",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
