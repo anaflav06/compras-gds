@@ -5732,6 +5732,27 @@
       "atualizado_em": "2026-11-12T20:11:47",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112201312777647",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.002.894",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CAMISETA CAMISA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 34.1,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T20:13:12",
+      "atualizado_em": "2026-11-12T20:13:12",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
