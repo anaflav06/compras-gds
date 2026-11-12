@@ -5585,6 +5585,27 @@
       "atualizado_em": "2026-11-12T19:39:21",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112194042717002",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.218.290",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CABO DE REDE  CAT6",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 24.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T19:40:42",
+      "atualizado_em": "2026-11-12T19:40:42",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
