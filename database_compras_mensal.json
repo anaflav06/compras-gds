@@ -5270,6 +5270,27 @@
       "atualizado_em": "2026-11-12T15:02:31",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112150447114180",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-11-05",
+      "numero_nf": "000.008.398",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "FONE DE OUVIDO HEADPHONE COM FIO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 23.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T15:04:47",
+      "atualizado_em": "2026-11-12T15:04:47",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
