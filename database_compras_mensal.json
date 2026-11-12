@@ -5564,6 +5564,27 @@
       "atualizado_em": "2026-11-12T19:38:10",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112193921404345",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "007.650.242",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "GARRAFA TÉRMICA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 53.42,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T19:39:21",
+      "atualizado_em": "2026-11-12T19:39:21",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
