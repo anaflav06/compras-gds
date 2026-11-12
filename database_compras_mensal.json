@@ -5711,6 +5711,27 @@
       "atualizado_em": "2026-11-12T20:10:11",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112201147186861",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.000.005",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CESTO RETANGULAR TAMPA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 132.96,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T20:11:47",
+      "atualizado_em": "2026-11-12T20:11:47",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
