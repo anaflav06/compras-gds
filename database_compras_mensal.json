@@ -5606,6 +5606,27 @@
       "atualizado_em": "2026-11-12T19:40:42",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112194136864959",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.012.755",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 10 PANOS DE CHÃO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 39.89,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T19:41:36",
+      "atualizado_em": "2026-11-12T19:41:36",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
