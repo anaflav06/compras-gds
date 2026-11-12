@@ -5522,6 +5522,27 @@
       "atualizado_em": "2026-11-12T16:15:58",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112161907160504",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-12",
+      "numero_nf": "",
+      "status_nf": "Pendente",
+      "motivo_nf": "",
+      "item": "SACO PLÁSTICO ENVELOPE A4",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 22.2,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T16:19:07",
+      "atualizado_em": "2026-11-12T16:19:07",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
