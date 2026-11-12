@@ -5816,6 +5816,27 @@
       "atualizado_em": "2026-11-12T20:21:33",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112202248231552",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "SAO12",
+      "data_compra": "2026-11-10",
+      "numero_nf": "000.274.230",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "HEADSET MULTILASER",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 27.99,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T20:22:48",
+      "atualizado_em": "2026-11-12T20:22:48",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
