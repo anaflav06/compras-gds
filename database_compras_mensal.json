@@ -5186,6 +5186,27 @@
       "atualizado_em": "2026-11-12T14:56:51",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112145801885964",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-03",
+      "numero_nf": "007.432.056",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "3X LÂMPADA LED T100",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 38.7,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T14:58:01",
+      "atualizado_em": "2026-11-12T14:58:01",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
