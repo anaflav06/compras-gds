@@ -5753,6 +5753,27 @@
       "atualizado_em": "2026-11-12T20:13:12",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112201420001398",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-11",
+      "numero_nf": "000.002.676",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "2 BALDES 12 LITROS REFORÇADO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 33.03,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T20:14:20",
+      "atualizado_em": "2026-11-12T20:14:20",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
