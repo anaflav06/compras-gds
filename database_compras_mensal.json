@@ -5291,6 +5291,27 @@
       "atualizado_em": "2026-11-12T15:04:47",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112150616714593",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-05",
+      "numero_nf": "000.024.984",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "TRANSMISSOR RECEPTOR HDMI",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 284.65,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T15:06:16",
+      "atualizado_em": "2026-11-12T15:06:16",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
