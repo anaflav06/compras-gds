@@ -5527,7 +5527,7 @@
       "id": "CMP-20261112161907160504",
       "site": "MERCADO LIVRE",
       "centro_custo": "CDSP2",
-      "data_compra": "2026-11-12",
+      "data_compra": "2026-11-11",
       "numero_nf": "",
       "status_nf": "Pendente",
       "motivo_nf": "",
@@ -5540,7 +5540,7 @@
       "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-11-12T16:19:07",
-      "atualizado_em": "2026-11-12T16:21:39",
+      "atualizado_em": "2026-11-12T20:16:03",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
