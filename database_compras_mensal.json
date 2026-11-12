@@ -5417,6 +5417,27 @@
       "atualizado_em": "2026-11-12T15:21:55",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261112152302665499",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-09",
+      "numero_nf": "000.434.584",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 10 PORTA RETRATOS 10X15",
+      "forma_pagamento": "2260",
+      "parcelamento": 3,
+      "total": 69.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-12T15:23:02",
+      "atualizado_em": "2026-11-12T15:23:02",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
