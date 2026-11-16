@@ -5942,6 +5942,27 @@
       "atualizado_em": "2026-11-12T20:47:46",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261116162429370274",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "ASSISTÊNCIA",
+      "data_compra": "2026-11-12",
+      "numero_nf": "000.056.268",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "CHAVE DE FENDA ELÉTRICA DE PRECISÃO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 73.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-16T16:24:29",
+      "atualizado_em": "2026-11-16T16:24:29",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
