@@ -5963,6 +5963,27 @@
       "atualizado_em": "2026-11-16T16:24:29",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261116162553500453",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-13",
+      "numero_nf": "000.024.772",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 4 GARRAFINHAS SQUEEZE",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 36.67,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-16T16:25:53",
+      "atualizado_em": "2026-11-16T16:25:53",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
