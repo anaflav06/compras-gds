@@ -5884,7 +5884,7 @@
       "id": "CMP-20261112202923525346",
       "site": "MERCADO LIVRE",
       "centro_custo": "CPQ08",
-      "data_compra": "2026-11-11",
+      "data_compra": "2026-11-12",
       "numero_nf": "000.516.282",
       "status_nf": "Recebida",
       "motivo_nf": "",
@@ -5897,7 +5897,7 @@
       "status_devolucao": "",
       "observacao": "",
       "criado_em": "2026-11-12T20:29:23",
-      "atualizado_em": "2026-11-12T20:29:23",
+      "atualizado_em": "2026-11-16T16:21:42",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -5963,7 +5963,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-11-12T19:24:53",
+    "ultima_carga_inicial_em": "2026-11-16T16:06:39",
     "ultima_carga_inicial_adicionados": 0
   }
 }
