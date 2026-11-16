@@ -5498,7 +5498,7 @@
       "status_devolucao": "Reembolso confirmado",
       "observacao": "",
       "criado_em": "2026-11-12T16:14:29",
-      "atualizado_em": "2026-11-12T20:16:16",
+      "atualizado_em": "2026-11-16T18:43:40",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
     },
@@ -6026,7 +6026,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-11-16T16:06:39",
+    "ultima_carga_inicial_em": "2026-11-16T18:38:03",
     "ultima_carga_inicial_adicionados": 0
   }
 }
