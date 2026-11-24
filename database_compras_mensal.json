@@ -5984,6 +5984,27 @@
       "atualizado_em": "2026-11-16T16:27:19",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261124203817267333",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-13",
+      "numero_nf": "000.123.364",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "KIT 5 TESOURAS",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 24.75,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-24T20:38:17",
+      "atualizado_em": "2026-11-24T20:38:17",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
@@ -6005,7 +6026,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-11-16T18:38:03",
+    "ultima_carga_inicial_em": "2026-11-24T20:32:22",
     "ultima_carga_inicial_adicionados": 0
   }
 }
