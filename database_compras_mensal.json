@@ -6026,6 +6026,27 @@
       "atualizado_em": "2026-11-24T20:39:55",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261124204131205962",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-16",
+      "numero_nf": "000.522.991",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "BOTA BOTINA SEGUNRANÇA",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 48.97,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-24T20:41:31",
+      "atualizado_em": "2026-11-24T20:41:31",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
