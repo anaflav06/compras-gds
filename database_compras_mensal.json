@@ -6110,6 +6110,27 @@
       "atualizado_em": "2026-11-25T19:38:53",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261125194905160816",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-18",
+      "numero_nf": "000.526.831",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "BOTA BOTINA SEGURANÇA TRABALHO",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 97.94,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-25T19:49:05",
+      "atualizado_em": "2026-11-25T19:49:05",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
