@@ -6068,6 +6068,27 @@
       "atualizado_em": "2026-11-24T20:42:46",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261125193238650588",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CPQ08",
+      "data_compra": "2026-11-17",
+      "numero_nf": "001.576.028",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "PALETEIRA TRANSPALETEIRA",
+      "forma_pagamento": "2260",
+      "parcelamento": 10,
+      "total": 1069.9,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-25T19:32:38",
+      "atualizado_em": "2026-11-25T19:32:38",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
@@ -6089,7 +6110,7 @@
     "versao": 1,
     "seed_julho_2026": true,
     "seed_agosto_2026": true,
-    "ultima_carga_inicial_em": "2026-11-24T20:32:22",
+    "ultima_carga_inicial_em": "2026-11-25T19:28:48",
     "ultima_carga_inicial_adicionados": 0
   }
 }
