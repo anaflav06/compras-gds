@@ -6194,6 +6194,27 @@
       "atualizado_em": "2026-11-25T19:56:28",
       "usuario_criacao": "julia",
       "usuario_atualizacao": "julia"
+    },
+    {
+      "id": "CMP-20261125200429978879",
+      "site": "MERCADO LIVRE",
+      "centro_custo": "CDSP2",
+      "data_compra": "2026-11-25",
+      "numero_nf": "000.294.625",
+      "status_nf": "Recebida",
+      "motivo_nf": "",
+      "item": "FONE DE OUVIDO PROFISSIONAL HEADSET",
+      "forma_pagamento": "2260",
+      "parcelamento": 1,
+      "total": 79.8,
+      "houve_devolucao": false,
+      "valor_devolucao": 0.0,
+      "status_devolucao": "",
+      "observacao": "",
+      "criado_em": "2026-11-25T20:04:29",
+      "atualizado_em": "2026-11-25T20:04:29",
+      "usuario_criacao": "julia",
+      "usuario_atualizacao": "julia"
     }
   ],
   "config": {
